@@ -1,0 +1,183 @@
+2026-05-24 05:17:56.820 [main] INFO  org.testng.internal.Utils.info - [TestNG] Running:
+  D:\1. Projects\_Testing\AutomationTesting\CompanyProjects\Infosys\TDG_HybridFramework\testng-suites\NewTestCasesSuite.xml
+
+2026-05-24 05:25:29.403 [main] INFO  org.testng.internal.Utils.info - [TestNG] Running:
+  D:\1. Projects\_Testing\AutomationTesting\CompanyProjects\Infosys\TDG_HybridFramework\testng-suites\NewTestCasesSuite.xml
+
+2026-05-24 05:26:07.134 [main] INFO  org.testng.internal.Utils.info - [TestNG] Running:
+  D:\1. Projects\_Testing\AutomationTesting\CompanyProjects\Infosys\TDG_HybridFramework\testng-suites\NewTestCasesSuite.xml
+
+2026-05-24 05:26:07.733 [main] INFO  testCases.login.LoginTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-05-24 05:26:07.734 [main] INFO  testCases.login.LoginTest.setup - --test execution started--
+2026-05-24 05:27:09.377 [main] INFO  testCases.login.LoginTest.log - setup - browser opened
+2026-05-24 05:27:35.054 [main] INFO  testCases.login.LoginTest.log - setup - cookies deleted
+2026-05-24 05:27:44.164 [main] INFO  testCases.login.LoginTest.log - setup - browser maximized
+2026-05-24 05:27:51.422 [main] INFO  testCases.login.LoginTest.log - setup - implicit wait applied for 10 seconds
+2026-05-24 05:28:09.979 [main] INFO  testCases.login.LoginTest.log - setup - provided app URL in browser
+2026-05-24 05:32:22.603 [main] INFO  org.testng.internal.Utils.info - [TestNG] Running:
+  D:\1. Projects\_Testing\AutomationTesting\CompanyProjects\Infosys\TDG_HybridFramework\testng-suites\NewTestCasesSuite.xml
+
+2026-05-24 05:32:23.024 [main] INFO  testCases.login.LoginTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-05-24 05:32:23.024 [main] INFO  testCases.login.LoginTest.setup - --test execution started--
+2026-05-24 05:32:25.609 [main] INFO  testCases.login.LoginTest.log - setup - browser opened
+2026-05-24 05:32:25.633 [main] INFO  testCases.login.LoginTest.log - setup - cookies deleted
+2026-05-24 05:32:25.669 [main] INFO  testCases.login.LoginTest.log - setup - browser maximized
+2026-05-24 05:32:25.675 [main] INFO  testCases.login.LoginTest.log - setup - implicit wait applied for 10 seconds
+2026-05-24 05:32:28.424 [main] INFO  testCases.login.LoginTest.log - setup - provided app URL in browser
+2026-05-24 05:34:13.168 [main] INFO  org.testng.internal.Utils.info - [TestNG] Running:
+  D:\1. Projects\_Testing\AutomationTesting\CompanyProjects\Infosys\TDG_HybridFramework\testng-suites\NewTestCasesSuite.xml
+
+2026-05-24 05:34:13.600 [main] INFO  testCases.login.LoginTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-05-24 05:34:13.600 [main] INFO  testCases.login.LoginTest.setup - --test execution started--
+2026-05-24 05:34:15.912 [main] INFO  testCases.login.LoginTest.log - setup - browser opened
+2026-05-24 05:34:15.936 [main] INFO  testCases.login.LoginTest.log - setup - cookies deleted
+2026-05-24 05:34:16.016 [main] INFO  testCases.login.LoginTest.log - setup - browser maximized
+2026-05-24 05:34:16.024 [main] INFO  testCases.login.LoginTest.log - setup - implicit wait applied for 10 seconds
+2026-05-24 05:34:16.747 [main] INFO  testCases.login.LoginTest.log - setup - provided app URL in browser
+2026-05-24 05:41:46.147 [main] INFO  org.testng.internal.Utils.info - [TestNG] Running:
+  D:\1. Projects\_Testing\AutomationTesting\CompanyProjects\Infosys\TDG_HybridFramework\testng-suites\NewTestCasesSuite.xml
+
+2026-05-24 05:41:46.678 [main] INFO  testCases.login.LoginTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-05-24 05:41:46.679 [main] INFO  testCases.login.LoginTest.setup - --test execution started--
+2026-05-24 05:41:49.805 [main] INFO  testCases.login.LoginTest.log - setup - browser opened
+2026-05-24 05:41:49.837 [main] INFO  testCases.login.LoginTest.log - setup - cookies deleted
+2026-05-24 05:41:49.888 [main] INFO  testCases.login.LoginTest.log - setup - browser maximized
+2026-05-24 05:41:49.890 [main] INFO  testCases.login.LoginTest.log - setup - implicit wait applied for 10 seconds
+2026-05-24 05:41:50.775 [main] INFO  testCases.login.LoginTest.log - setup - provided app URL in browser
+2026-05-24 05:43:07.199 [main] INFO  testCases.login.LoginTest.log - setup - provided email
+2026-05-24 05:45:45.669 [main] INFO  org.testng.internal.Utils.info - [TestNG] Running:
+  D:\1. Projects\_Testing\AutomationTesting\CompanyProjects\Infosys\TDG_HybridFramework\testng-suites\NewTestCasesSuite.xml
+
+2026-05-24 05:45:46.462 [main] INFO  testCases.login.LoginTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-05-24 05:45:46.463 [main] INFO  testCases.login.LoginTest.setup - --test execution started--
+2026-05-24 05:45:49.767 [main] INFO  testCases.login.LoginTest.log - setup - browser opened
+2026-05-24 05:45:49.798 [main] INFO  testCases.login.LoginTest.log - setup - cookies deleted
+2026-05-24 05:45:49.838 [main] INFO  testCases.login.LoginTest.log - setup - browser maximized
+2026-05-24 05:45:49.858 [main] INFO  testCases.login.LoginTest.log - setup - implicit wait applied for 10 seconds
+2026-05-24 05:45:53.638 [main] INFO  testCases.login.LoginTest.log - setup - provided app URL in browser
+2026-05-24 05:45:56.392 [main] INFO  testCases.login.LoginTest.log - setup - provided email
+2026-05-24 05:52:53.311 [main] INFO  org.testng.internal.Utils.info - [TestNG] Running:
+  D:\1. Projects\_Testing\AutomationTesting\CompanyProjects\Infosys\TDG_HybridFramework\testng-suites\NewTestCasesSuite.xml
+
+2026-05-24 05:52:53.944 [main] INFO  testCases.login.LoginTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-05-24 05:52:53.945 [main] INFO  testCases.login.LoginTest.setup - --test execution started--
+2026-05-24 05:52:56.211 [main] INFO  testCases.login.LoginTest.log - setup - browser opened
+2026-05-24 05:52:56.275 [main] INFO  testCases.login.LoginTest.log - setup - cookies deleted
+2026-05-24 05:52:56.311 [main] INFO  testCases.login.LoginTest.log - setup - browser maximized
+2026-05-24 05:52:56.311 [main] INFO  testCases.login.LoginTest.log - setup - implicit wait applied for 10 seconds
+2026-05-24 05:52:57.067 [main] INFO  testCases.login.LoginTest.log - setup - provided app URL in browser
+2026-05-24 05:53:02.292 [main] INFO  testCases.login.LoginTest.log - setup - provided email
+2026-05-24 06:00:33.675 [main] INFO  org.testng.internal.Utils.info - [TestNG] Running:
+  D:\1. Projects\_Testing\AutomationTesting\CompanyProjects\Infosys\TDG_HybridFramework\testng-suites\NewTestCasesSuite.xml
+
+2026-05-24 06:00:34.260 [main] INFO  testCases.login.LoginTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-05-24 06:00:34.261 [main] INFO  testCases.login.LoginTest.setup - --test execution started--
+2026-05-24 06:00:37.596 [main] INFO  testCases.login.LoginTest.log - setup - browser opened
+2026-05-24 06:00:37.638 [main] INFO  testCases.login.LoginTest.log - setup - cookies deleted
+2026-05-24 06:00:37.751 [main] INFO  testCases.login.LoginTest.log - setup - browser maximized
+2026-05-24 06:00:37.794 [main] INFO  testCases.login.LoginTest.log - setup - implicit wait applied for 10 seconds
+2026-05-24 06:00:41.234 [main] INFO  testCases.login.LoginTest.log - setup - provided app URL in browser
+2026-05-24 06:00:43.991 [main] INFO  testCases.login.LoginTest.log - setup - provided email
+2026-05-24 06:05:59.674 [main] INFO  org.testng.internal.Utils.info - [TestNG] Running:
+  D:\1. Projects\_Testing\AutomationTesting\CompanyProjects\Infosys\TDG_HybridFramework\testng-suites\NewTestCasesSuite.xml
+
+2026-05-24 06:06:00.194 [main] INFO  testCases.login.LoginTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-05-24 06:06:00.198 [main] INFO  testCases.login.LoginTest.setup - --test execution started--
+2026-05-24 06:06:02.557 [main] INFO  testCases.login.LoginTest.log - setup - browser opened
+2026-05-24 06:06:02.589 [main] INFO  testCases.login.LoginTest.log - setup - cookies deleted
+2026-05-24 06:06:02.628 [main] INFO  testCases.login.LoginTest.log - setup - browser maximized
+2026-05-24 06:06:02.640 [main] INFO  testCases.login.LoginTest.log - setup - implicit wait applied for 10 seconds
+2026-05-24 06:06:05.361 [main] INFO  testCases.login.LoginTest.log - setup - provided app URL in browser
+2026-05-24 06:06:07.968 [main] INFO  testCases.login.LoginTest.log - setup - provided email
+2026-05-24 11:37:08.797 [main] INFO  testCases.login.LoginTest.log - setup - clicked on log in button
+2026-05-24 11:57:06.060 [main] INFO  org.testng.internal.Utils.info - [TestNG] Running:
+  D:\1. Projects\_Testing\AutomationTesting\CompanyProjects\Infosys\TDG_HybridFramework\testng-suites\NewTestCasesSuite.xml
+
+2026-05-24 11:57:06.736 [main] INFO  testCases.login.LoginTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-05-24 11:57:06.737 [main] INFO  testCases.login.LoginTest.setup - --test execution started--
+2026-05-24 11:57:11.277 [main] INFO  testCases.login.LoginTest.log - setup - browser opened
+2026-05-24 11:57:11.306 [main] INFO  testCases.login.LoginTest.log - setup - cookies deleted
+2026-05-24 11:57:11.350 [main] INFO  testCases.login.LoginTest.log - setup - browser maximized
+2026-05-24 11:57:11.373 [main] INFO  testCases.login.LoginTest.log - setup - implicit wait applied for 10 seconds
+2026-05-24 11:57:14.443 [main] INFO  testCases.login.LoginTest.log - setup - provided app URL in browser
+2026-05-24 11:57:16.971 [main] INFO  testCases.login.LoginTest.log - setup - provided email
+2026-05-24 12:38:21.261 [main] INFO  org.testng.internal.Utils.info - [TestNG] Running:
+  D:\1. Projects\_Testing\AutomationTesting\CompanyProjects\Infosys\TDG_HybridFramework\testng-suites\NewTestCasesSuite.xml
+
+2026-05-24 12:38:22.401 [main] INFO  testCases.login.LoginTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-05-24 12:38:22.401 [main] INFO  testCases.login.LoginTest.setup - --test execution started--
+2026-05-24 12:38:27.279 [main] INFO  testCases.login.LoginTest.log - setup - browser opened
+2026-05-24 12:38:27.315 [main] INFO  testCases.login.LoginTest.log - setup - cookies deleted
+2026-05-24 12:38:27.378 [main] INFO  testCases.login.LoginTest.log - setup - browser maximized
+2026-05-24 12:38:27.391 [main] INFO  testCases.login.LoginTest.log - setup - implicit wait applied for 10 seconds
+2026-05-24 12:38:30.431 [main] INFO  testCases.login.LoginTest.log - setup - provided app URL in browser
+2026-05-24 12:38:33.571 [main] INFO  testCases.login.LoginTest.log - setup - provided email
+2026-05-24 12:38:33.810 [main] INFO  testCases.login.LoginTest.log - setup - clicked on log in button
+2026-05-24 12:41:01.628 [main] INFO  org.testng.internal.Utils.info - [TestNG] Running:
+  D:\1. Projects\_Testing\AutomationTesting\CompanyProjects\Infosys\TDG_HybridFramework\testng-suites\NewTestCasesSuite.xml
+
+2026-05-24 12:41:02.430 [main] INFO  testCases.login.LoginTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-05-24 12:41:02.430 [main] INFO  testCases.login.LoginTest.setup - --test execution started--
+2026-05-24 12:41:06.552 [main] INFO  testCases.login.LoginTest.log - setup - browser opened
+2026-05-24 12:41:06.579 [main] INFO  testCases.login.LoginTest.log - setup - cookies deleted
+2026-05-24 12:41:06.630 [main] INFO  testCases.login.LoginTest.log - setup - browser maximized
+2026-05-24 12:41:06.640 [main] INFO  testCases.login.LoginTest.log - setup - implicit wait applied for 10 seconds
+2026-05-24 12:41:10.024 [main] INFO  testCases.login.LoginTest.log - setup - provided app URL in browser
+2026-05-24 12:41:13.236 [main] INFO  testCases.login.LoginTest.log - setup - provided email
+2026-05-24 12:41:13.419 [main] INFO  testCases.login.LoginTest.log - setup - clicked on log in button
+2026-05-24 12:41:46.194 [main] INFO  testCases.login.LoginTest.log - openSidebar - Clicked on hamburger icon to open the sidebar
+2026-05-24 12:41:50.246 [main] INFO  testCases.login.LoginTest.log - prepareNavigation - Opened sidebar
+2026-05-24 12:42:16.147 [main] INFO  org.testng.internal.Utils.info - [TestNG] Running:
+  D:\1. Projects\_Testing\AutomationTesting\CompanyProjects\Infosys\TDG_HybridFramework\testng-suites\NewTestCasesSuite.xml
+
+2026-05-24 12:42:16.843 [main] INFO  testCases.login.LoginTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-05-24 12:42:16.843 [main] INFO  testCases.login.LoginTest.setup - --test execution started--
+2026-05-24 12:42:20.712 [main] INFO  testCases.login.LoginTest.log - setup - browser opened
+2026-05-24 12:42:20.744 [main] INFO  testCases.login.LoginTest.log - setup - cookies deleted
+2026-05-24 12:42:20.791 [main] INFO  testCases.login.LoginTest.log - setup - browser maximized
+2026-05-24 12:42:20.801 [main] INFO  testCases.login.LoginTest.log - setup - implicit wait applied for 10 seconds
+2026-05-24 12:42:23.781 [main] INFO  testCases.login.LoginTest.log - setup - provided app URL in browser
+2026-05-24 12:42:26.636 [main] INFO  testCases.login.LoginTest.log - setup - provided email
+2026-05-24 12:42:26.872 [main] INFO  testCases.login.LoginTest.log - setup - clicked on log in button
+2026-05-24 12:43:01.857 [main] INFO  testCases.login.LoginTest.log - openSidebar - Clicked on hamburger icon to open the sidebar
+2026-05-24 12:43:01.857 [main] INFO  testCases.login.LoginTest.log - prepareNavigation - Opened sidebar
+2026-05-24 12:43:31.492 [main] INFO  org.testng.internal.Utils.info - [TestNG] Running:
+  D:\1. Projects\_Testing\AutomationTesting\CompanyProjects\Infosys\TDG_HybridFramework\testng-suites\NewTestCasesSuite.xml
+
+2026-05-24 12:43:32.468 [main] INFO  testCases.login.LoginTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-05-24 12:43:32.468 [main] INFO  testCases.login.LoginTest.setup - --test execution started--
+2026-05-24 12:43:36.912 [main] INFO  testCases.login.LoginTest.log - setup - browser opened
+2026-05-24 12:43:36.955 [main] INFO  testCases.login.LoginTest.log - setup - cookies deleted
+2026-05-24 12:43:37.011 [main] INFO  testCases.login.LoginTest.log - setup - browser maximized
+2026-05-24 12:43:37.020 [main] INFO  testCases.login.LoginTest.log - setup - implicit wait applied for 10 seconds
+2026-05-24 12:43:43.946 [main] INFO  testCases.login.LoginTest.log - setup - provided app URL in browser
+2026-05-24 12:43:46.520 [main] INFO  testCases.login.LoginTest.log - setup - provided email
+2026-05-24 12:43:46.702 [main] INFO  testCases.login.LoginTest.log - setup - clicked on log in button
+2026-05-24 12:54:26.318 [main] INFO  org.testng.internal.Utils.info - [TestNG] Running:
+  D:\1. Projects\_Testing\AutomationTesting\CompanyProjects\Infosys\TDG_HybridFramework\testng-suites\NewTestCasesSuite.xml
+
+2026-05-24 12:54:27.218 [main] INFO  testCases.login.LoginTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-05-24 12:54:27.218 [main] INFO  testCases.login.LoginTest.setup - --test execution started--
+2026-05-24 12:54:32.094 [main] INFO  testCases.login.LoginTest.log - setup - browser opened
+2026-05-24 12:54:32.133 [main] INFO  testCases.login.LoginTest.log - setup - cookies deleted
+2026-05-24 12:54:32.182 [main] INFO  testCases.login.LoginTest.log - setup - browser maximized
+2026-05-24 12:54:32.204 [main] INFO  testCases.login.LoginTest.log - setup - implicit wait applied for 10 seconds
+2026-05-24 12:54:35.642 [main] INFO  testCases.login.LoginTest.log - setup - provided app URL in browser
+2026-05-24 12:54:38.973 [main] INFO  testCases.login.LoginTest.log - setup - provided email
+2026-05-24 12:54:39.171 [main] INFO  testCases.login.LoginTest.log - setup - clicked on log in button
+2026-05-24 13:01:37.862 [main] INFO  testCases.login.LoginTest.log - openSidebar - Clicked on hamburger icon to open the sidebar
+2026-05-24 13:01:37.873 [main] INFO  testCases.login.LoginTest.log - prepareNavigation - Opened sidebar
+2026-05-24 13:03:51.146 [main] INFO  org.testng.internal.Utils.info - [TestNG] Running:
+  D:\1. Projects\_Testing\AutomationTesting\CompanyProjects\Infosys\TDG_HybridFramework\testng-suites\NewTestCasesSuite.xml
+
+2026-05-24 13:03:52.266 [main] INFO  testCases.login.LoginTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-05-24 13:03:52.266 [main] INFO  testCases.login.LoginTest.setup - --test execution started--
+2026-05-24 13:03:57.224 [main] INFO  testCases.login.LoginTest.log - setup - browser opened
+2026-05-24 13:03:57.248 [main] INFO  testCases.login.LoginTest.log - setup - cookies deleted
+2026-05-24 13:03:57.296 [main] INFO  testCases.login.LoginTest.log - setup - browser maximized
+2026-05-24 13:03:57.306 [main] INFO  testCases.login.LoginTest.log - setup - implicit wait applied for 10 seconds
+2026-05-24 13:04:00.927 [main] INFO  testCases.login.LoginTest.log - setup - provided app URL in browser
+2026-05-24 13:04:04.152 [main] INFO  testCases.login.LoginTest.log - setup - provided email
+2026-05-24 13:04:04.341 [main] INFO  testCases.login.LoginTest.log - setup - clicked on log in button
+2026-05-24 16:02:34.751 [main] INFO  testCases.login.LoginTest.log - openSidebar - Clicked on hamburger icon to open the sidebar
+2026-05-24 16:02:34.767 [main] INFO  testCases.login.LoginTest.log - prepareNavigation - Opened sidebar
