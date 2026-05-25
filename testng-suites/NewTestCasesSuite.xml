@@ -27,7 +27,7 @@
             <!-- Attendance -->
             <!-- Recruitment -->
             <!-- Global -->
-            <class name="testCases.login.LoginTest"/>
+            <class name="testCases.greenLanes.GreenLanesTest"/>
             <!-- Flaky Test -->
             <!--<class name="testCases.HRMS.Payroll.CreatePromotionTest"/>-->
 
