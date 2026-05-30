@@ -24,14 +24,14 @@ public class GreenLanesTest extends BaseTest
             gl.clickCreateGreenLaneBtn();
             log("Clicked on Create Green Lane button");
 
-            try
+            /*try
             {
                 gl.clickCreateGreenLaneBtn();
                 log("Clicked on Create Green Lane button");
             } catch (Exception e)
             {
                 System.out.println(e.getMessage());
-            }
+            }*/
 
             gl.provideName();
             log("Provided name for the new green lane");
@@ -43,6 +43,8 @@ public class GreenLanesTest extends BaseTest
             {
                 System.out.println(e.getMessage());
             }
+            //gl.provideDate();
+            //log("Provided date for the new green lane");
 
             try
             {

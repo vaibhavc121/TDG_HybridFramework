@@ -8,8 +8,10 @@ import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import utilities.DriverUtils;
+import utilities.JavaScriptUtils;
 import utilities.ShadowDomUtils;
 
+import java.util.List;
 
 public class GreenLanesPage extends BasePage
 {
@@ -26,7 +28,7 @@ public class GreenLanesPage extends BasePage
                 By.cssSelector("motif-panel-menu-item[label='Green Lanes']"),
                 By.cssSelector("p.panel-menu-item__header-label")
         );
-
+        //waitTS(3);
     }
 
     public void clickCreateGreenLaneBtn()
@@ -58,6 +60,8 @@ public class GreenLanesPage extends BasePage
         //  Use JS click (fix interception issue)
         ((JavascriptExecutor) DriverUtils.getDriver())
                 .executeScript("arguments[0].click();", button);
+
+        //waitTS(3);
     }
 
     public void provideName()
@@ -78,6 +82,8 @@ public class GreenLanesPage extends BasePage
         WebElement inputBox = DriverUtils.getDriver()
                 .findElement(By.cssSelector("input[aria-label='Name *']"));
 
+        JavaScriptUtils.scrollIntoView(DriverFactory.getDriver(), inputBox);
+
         ((JavascriptExecutor) DriverUtils.getDriver())
                 .executeScript("arguments[0].scrollIntoView(true);", inputBox);
 
@@ -92,22 +98,52 @@ public class GreenLanesPage extends BasePage
 
     public void provideDate()
     {
-        //This Element is inside single shadow DOM.
+        /*//This Element is inside single shadow DOM.
         String cssSelectorForHost = "motif-date-picker[class='hydrated']";
         //Thread.sleep(1000);
         SearchContext shadow = DriverFactory.getDriver().findElement(By.cssSelector("motif-date-picker[class='hydrated']")).getShadowRoot();
         //Thread.sleep(1000);
-        shadow.findElement(By.cssSelector("#motif-input-ziktpm")).sendKeys("24/05/2026");
+        shadow.findElement(By.cssSelector("#motif-input-ziktpm")).sendKeys("24/05/2026");*/
+
+        List<WebElement>ele= DriverUtils.getDriver()
+                .findElements(By.cssSelector("motif-tooltip-trigger"));
+        System.out.println(ele.size());
+
+        WebElement host = DriverUtils.getDriver()
+                .findElements(By.cssSelector("motif-tooltip-trigger"))
+                .get(2);   // ✅ correct index
+
+        SearchContext shadow = host.getShadowRoot();
+
+        WebElement inputBox = shadow.findElement(By.cssSelector("input"));
+
+        ((JavascriptExecutor) DriverUtils.getDriver())
+                .executeScript("arguments[0].scrollIntoView(true);", inputBox);
+
+        inputBox.click();
+        inputBox.clear();
+        inputBox.sendKeys("25/05/2026");
+
+
+
+
+
+
+
+
+
     }
     public void selectOwnership()
     {
         clickOnElement1(ownership);
         clearAndProvide1(ownership, "Damian");
         String cssSelectorForHost = "motif-truncate[class='motif-truncate-width hydrated'][placement='bottom']";
+        waitTS(3);
+        pressEnter();
         //Thread.sleep(1000);
-        SearchContext shadow = DriverFactory.getDriver().findElement(By.cssSelector("motif-truncate[class='motif-truncate-width hydrated'][placement='bottom']")).getShadowRoot();
+        //SearchContext shadow = DriverFactory.getDriver().findElement(By.cssSelector("motif-truncate[class='motif-truncate-width hydrated'][placement='bottom']")).getShadowRoot();
         //Thread.sleep(1000);
-        shadow.findElement(By.cssSelector(".motif-truncate.motif-truncate-lines")).click();
+        //shadow.findElement(By.cssSelector(".motif-truncate.motif-truncate-lines")).click();
     }
 
     public void selectServiceLine()
