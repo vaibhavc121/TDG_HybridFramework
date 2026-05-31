@@ -1,5 +1,6 @@
 package testCases.greenLanes;
 
+import base.BasePage;
 import base.BaseTest;
 import factory.LoggerFactory;
 import org.testng.Assert;
@@ -16,6 +17,8 @@ public class GreenLanesTest extends BaseTest
         {
             //String itSupportFile = FileUtils.getDataFile("SelfService", "SelfService", "SelfServiceData");
             //List<ITSupportModel> itSupportData = JsonUtils.convertJsonListDataModel(itSupportFile, "createITSupport", ITSupportModel.class);
+
+            //region Identify & Lifecycle
             GreenLanesPage gl=new GreenLanesPage();
 
             gl.clickGreenLanes();
@@ -24,101 +27,31 @@ public class GreenLanesTest extends BaseTest
             gl.clickCreateGreenLaneBtn();
             log("Clicked on Create Green Lane button");
 
-            /*try
-            {
-                gl.clickCreateGreenLaneBtn();
-                log("Clicked on Create Green Lane button");
-            } catch (Exception e)
-            {
-                System.out.println(e.getMessage());
-            }*/
-
             gl.provideName();
             log("Provided name for the new green lane");
-            try
-            {
-                gl.provideName();
-                log("Provided name for the new green lane");
-            } catch (Exception e)
-            {
-                System.out.println(e.getMessage());
-            }
-            //gl.provideDate();
-            //log("Provided date for the new green lane");
 
-            try
-            {
-                gl.provideDate();
-                log("Provided date for the new green lane");
-            } catch (Exception e)
-            {
-                System.out.println(e.getMessage());
-            }
+            gl.provideDate();
+            log("Provided date for the new green lane");
 
-            try
-            {
-                gl.selectOwnership();
-                log("Selected ownership for the new green lane");
-            } catch (Exception e)
-            {
-                System.out.println(e.getMessage());
-            }
+            gl.selectOwnership();
+            log("Selected ownership for the new green lane");
 
-            try
-            {
-                gl.selectServiceLine();
-                log("Selected service line for the new green lane");
-            } catch (Exception e)
-            {
-                System.out.println(e.getMessage());
-            }
+            gl.selectServiceLine();
+            log("Selected service line for the new green lane");
 
-            try
-            {
-                gl.selectSuperRegion();
-                log("Selected super region for the new green lane");
-            } catch (Exception e)
-            {
-                System.out.println(e.getMessage());
-            }
+            gl.selectSuperRegion();
+            log("Selected super region for the new green lane");
 
-            try
-            {
-                gl.provideDesc();
-                log("Provided description for the new green lane");
-            } catch (Exception e)
-            {
-                System.out.println(e.getMessage());
-            }
+            gl.provideDesc();
+            log("Provided description for the new green lane");
 
-            try
-            {
-                gl.clickSaveAndNext();
-                log("Clicked on Save and Next button to create the green lane");
-            } catch (Exception e)
-            {
-                System.out.println(e.getMessage());
-            }
+            gl.clickSaveAndNext();
+            log("Clicked on Save and Next button to create the green lane");
 
+            Assert.assertTrue(BasePage.isTransactionCreated(),
+                    "Identify & Lifecycle not saved successfully");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            //endregion
         } catch (Exception e)
         {
             LoggerFactory.getLogger().error("Test failed due to exception: ", e);

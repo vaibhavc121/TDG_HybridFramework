@@ -63,7 +63,7 @@ public class BaseTest
     public void prepareNavigation() throws InterruptedException
     {
         BasePage.openSidebar();
-        log("Opened sidebar");
+        //log("Opened sidebar");
     }
 
     //endregion
@@ -271,6 +271,7 @@ public class BaseTest
         log("provided email");
         lp.clickLogin();
         log("clicked on log in button");
+        BasePage.waitTS(2);
 
         //endregion
         //endregion

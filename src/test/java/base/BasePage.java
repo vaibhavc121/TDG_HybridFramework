@@ -1222,6 +1222,24 @@ public class BasePage
         Actions actions = new Actions(DriverFactory.getDriver());
         actions.sendKeys(Keys.ENTER).perform();
     }
+
+    public static void pressArrowDown()
+    {
+        Actions actions = new Actions(DriverFactory.getDriver());
+        actions.sendKeys(Keys.ARROW_DOWN).perform();
+    }
+
+    public static void pressArrowDown(int count)
+    {
+        Actions actions = new Actions(DriverFactory.getDriver());
+
+        for (int i = 0; i < count; i++)
+        {
+            actions.sendKeys(Keys.ARROW_DOWN);
+        }
+
+        actions.perform();
+    }
     // endregion
 
     // region Waits
@@ -1319,8 +1337,8 @@ public class BasePage
 
     public static boolean isTransactionCreated()
     {
-        String message = waitForElement1(By.xpath("//div[@class='dx-toast-message']")).getText();
-        if (message.contains("created successfully"))
+        String message = waitForElement1(By.xpath("//div[@slot='toast-supporting-text']")).getText();
+        if (message.contains("saved successfully"))
         {
             return true;
         } else

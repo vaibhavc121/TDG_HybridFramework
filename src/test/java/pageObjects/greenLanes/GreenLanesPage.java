@@ -89,7 +89,7 @@ public class GreenLanesPage extends BasePage
 
         inputBox.click();
         inputBox.clear();
-        inputBox.sendKeys("Test Green Lane");
+        inputBox.sendKeys("Test Green Lane1");
 
 
 
@@ -98,14 +98,14 @@ public class GreenLanesPage extends BasePage
 
     public void provideDate()
     {
-        /*//This Element is inside single shadow DOM.
+        //This Element is inside single shadow DOM.
         String cssSelectorForHost = "motif-date-picker[class='hydrated']";
         //Thread.sleep(1000);
         SearchContext shadow = DriverFactory.getDriver().findElement(By.cssSelector("motif-date-picker[class='hydrated']")).getShadowRoot();
         //Thread.sleep(1000);
-        shadow.findElement(By.cssSelector("#motif-input-ziktpm")).sendKeys("24/05/2026");*/
+        shadow.findElement(By.cssSelector("input[id*='motif-input']")).sendKeys("24/05/2026");
 
-        List<WebElement>ele= DriverUtils.getDriver()
+      /*  List<WebElement>ele= DriverUtils.getDriver()
                 .findElements(By.cssSelector("motif-tooltip-trigger"));
         System.out.println(ele.size());
 
@@ -122,7 +122,7 @@ public class GreenLanesPage extends BasePage
 
         inputBox.click();
         inputBox.clear();
-        inputBox.sendKeys("25/05/2026");
+        inputBox.sendKeys("25/05/2026");*/
 
 
 
@@ -159,12 +159,10 @@ public class GreenLanesPage extends BasePage
         shadow1.findElement(By.cssSelector("svg[aria-label='icon']")).click();
 
         waitTS(1);
-        //This Element is inside single shadow DOM.
-        String cssSelectorForHost = "motif-select-option[value='ASU']";
-        //Thread.sleep(1000);
-        SearchContext shadow = DriverFactory.getDriver().findElement(By.cssSelector("motif-select-option[value='ASU']")).getShadowRoot();
-        //Thread.sleep(1000);
-        shadow.findElement(By.cssSelector("slot")).click();
+        pressArrowDown();
+        waitTS(1);
+        pressEnter();
+        pressEnter();
     }
 
     public void selectSuperRegion()
@@ -180,12 +178,10 @@ public class GreenLanesPage extends BasePage
         shadow1.findElement(By.cssSelector("svg[aria-label='icon']")).click();
 
         waitTS(1);
-        //This Element is inside single shadow DOM.
-        String cssSelectorForHost = "motif-select-option[value='Gbl']";
-        //Thread.sleep(1000);
-        SearchContext shadow = DriverFactory.getDriver().findElement(By.cssSelector("motif-select-option[value='Gbl']")).getShadowRoot();
-        //Thread.sleep(1000);
-        shadow.findElement(By.cssSelector("slot")).click();
+        pressArrowDown();
+        waitTS(1);
+        pressEnter();
+        pressEnter();
     }
 
     public void provideDesc()
@@ -195,12 +191,13 @@ public class GreenLanesPage extends BasePage
 
     public void clickSaveAndNext()
     {
-        //This Element is inside single shadow DOM.
+        /*//This Element is inside single shadow DOM.
         String cssSelectorForHost = "motif-button[type='button'][class='hydrated'][variant='primary']";
         //Thread.sleep(1000);
         SearchContext shadow = DriverFactory.getDriver().findElement(By.cssSelector("motif-button[type='button'][class='hydrated'][variant='primary']")).getShadowRoot();
         //Thread.sleep(1000);
-        shadow.findElement(By.cssSelector("slot")).click();
+        shadow.findElement(By.cssSelector(".motif-button.motif-button--sm.motif-button--primary.motif-button--default")).click();*/
+        ShadowDomUtils.clickShadowElement1(By.cssSelector("motif-button[type='button'][class='hydrated'][variant='primary']"), By.cssSelector(".motif-button.motif-button--sm.motif-button--primary.motif-button--default"));
     }
 
     //endregion
