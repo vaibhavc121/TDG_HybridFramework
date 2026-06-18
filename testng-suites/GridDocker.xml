@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GridDockerTestSuite">
+
+	<groups>
+		<run>
+			<include name="regression"></include>
+			<include name="datadriven"></include>
+		</run>
+	</groups>
+
+	<listeners>
+		<listener class-name="utilities.ExtentReportsUtils"></listener>
+	</listeners>
+
+
+	<test name="linux-chrome Tests">
+		<parameter name="os" value="linux"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+
+		<classes>
+
+			<!--<class name="testCases.TC_LicensesTest" />-->
+
+
+		</classes>
+	</test>
+
+	<!--<test name="mac-edge Tests">
+		<parameter name="os" value="mac"></parameter>
+		<parameter name="browser" value="edge"></parameter>
+
+		<classes>
+
+			<class name="testCases.TC_LicensesTest" />
+			<class name="testCases.TC_DelegationTest" />
+			<class name="testCases.TC_AssetIssueTest" />
+			<class name="testCases.TC_BudgetTest" />
+			<class name="testCases.TC_DocumentTypeTest" />
+			<class name="testCases.TC_QualificationTest" />
+			<class name="testCases.TC_BankTest" />
+			<class name="testCases.TC_WorkLocationTest" />
+			<class name="testCases.TC_ReligionTest" />
+			<class name="testCases.TC_CalendarTest" />
+			<class name="testCases.TC_GradeTest" />
+			<class name="testCases.TC_DesignationTest" />
+			<class name="testCases.TC_DeptTest" />
+			<class name="testCases.TC_EmployeeTest" />
+			<class name="testCases.TC_LoginTest" />
+
+		</classes>
+	</test>-->
+
+
+</suite>
